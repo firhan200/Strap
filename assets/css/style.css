@@ -1,0 +1,109 @@
+body{font-family: monospace;background-color:#f8f8f8;}
+.navbar-custom {
+    background:transparent;
+    color:#fff;
+    border-radius:0;
+    -webkit-transition: 0.5s; /* Safari */
+    transition: 0.5s;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#f8f8f8;
+    font-size: 14px;
+    margin-top: 6px;
+    -webkit-transition: 1s; /* Safari */
+    transition: 1s;
+}
+
+.navbar-custom-scrolled{background-color:#5DD5C5; }
+
+.navbar-custom .navbar-nav > .active > a {
+    color: #fff;
+    font-weight: bold;
+    background:#5DD5C5 !important;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background:#5DD5C5 !important;   
+}
+
+.navbar-custom .navbar-brand {
+    color:#5B5B5B;
+}
+.navbar-custom .navbar-toggle {
+    margin-top: 10px;
+    background-color: #fff !important;
+}
+.navbar-custom .icon-bar {
+    background-color:#5B5B5B;
+}
+
+.full{width:100%;}
+.glyphicon{font-size:8pt;}
+.form-control{height:40px;border-radius:0px;box-shadow:1px 1px 1px #bdbdbd;}
+.has-feedback > .form-control-feedback{margin-top:5px;color:#888888}
+.has-left-feedback > .left-feedback{position:absolute;margin-top:11px;margin-left:8px;color:#888888}
+.has-left-feedback > .form-control{padding-left: 30px;}
+.feedback-active{color:#64C3D6 !important;}
+.nav-search{margin-top: 10px;margin-right: 20px;margin-left: 20px;width:200px;
+    -webkit-transition: 0.3s; /* Safari */
+    transition: 0.3s;}
+.nav-search-active{width:300px !important;}
+.navbar-brand{margin-top: 5px;color:#fff !important;font-family:cursive;}
+.dropdown-menu{min-width: 250px}
+.dropdown-menu > li > a{padding:10px 20px 10px 20px}
+.first-section{margin-top: 100px;}
+.box{
+    text-align: center;
+    background-color: #fff;padding:40px;border-radius: 10px;border: 1px solid #f2f2f2;
+    -webkit-transition: 0.3s; /* Safari */
+    transition: 0.3s;
+    margin-bottom: 40px;
+}
+.box:hover{background-color:#5DD5C5;color:#fff; }
+.box > .box-title{font-size:14pt;font-weight: bold;margin-bottom: 20px;}
+.box > .box-desc{font-size:11pt;font-weight: lighter;}
+.box > .box-icon > span{color:#000;font-size: 20pt;margin-bottom: 10px;
+    -webkit-transition: 0.5s; /* Safari */
+    transition: 0.5s;}
+.box:hover > .box-icon > span{color:#fff;-ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);}
+.title{font-size:16pt;}
+.colored-section{background-color:#53BAAC;padding-top: 50px;padding-bottom: 50px;color:#fff;}
+.tabs-home{margin-top: 30px;}
+.tabs-home > li > a{background-color:#e6e6e6;border-radius: 0px !important;color:#687875;padding:20px;}
+.tabs-home > li .active{background-color:#fff;color:#687875;}
+.tab-content{margin-top: 50px;}
+
+.news-container{margin-top: 60px;margin-bottom: 60px;}
+.news{border-radius: 10px;height:25em;background: #fff;padding: 0;margin-bottom: 30px;
+    -webkit-transition: 0.5s; /* Safari */
+    transition: 0.5s;}
+.news:hover{margin-top: -10px;margin-bottom: 10px;box-shadow: 2px 2px 3px #bdbdbd;}
+.news:hover > .news-info{margin-bottom: 15px;}
+.news > .news-cat{padding:10px;}
+.news > .news-title{padding:10px;font-size:12pt;font-weight: bold;}
+.news > .news-desc{padding:10px;font-size:10pt;margin-top: -15px;}
+.news > .news-info{position:absolute;bottom:0px;width:100%;padding-right:40px;margin-bottom: 35px;
+    -webkit-transition: 0.5s; /* Safari */
+    transition: 0.5s;}
+
+.footer{background-color:#469C91;padding-top: 50px;padding-bottom: 50px;}
+.footer-content{color:#B0C5C6;}
+.footer-title{font-size: 14pt;font-weight: bold;margin-bottom: 10px;color:#fff;}
+.footer-link{list-style: none;padding:0;}
+.footer-link > li > a{text-decoration: none;color:#B0C5C6;line-height:1.8}
+.footer-link > li > a:hover{color:#fff;}
+.footer-separator{height: 1px;background-color: #A1B3B4;margin-bottom: 20px;margin-top: 30px;}
+.footer-content a > .fa{font-size: 26pt;color: #B0C5C6;
+    -webkit-transition: 0.5s; /* Safari */
+    transition: 0.5s;}
+.footer-content a > .fa:hover{color: #fff;}
